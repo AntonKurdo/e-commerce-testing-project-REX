@@ -1,0 +1,48 @@
+.manuf_item {
+    width: 87px !important;
+    height: 30px !important;
+    margin-bottom: 5px !important; 
+    position: relative;
+   
+
+    .manuf_name {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+}
+.manuf_name:hover {
+    z-index: 3;
+}
+.manuf_item:hover .manuf_name {
+    color:#0b0c23;
+}
+
+._square {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.__first {
+    left: 0;
+    top: 0;
+}
+
+.__second {
+    right: 0;
+    top: 0;
+}
+
+.__third {
+    left: 0;
+    bottom: 0;
+}
+
+.__fourth {
+    right: 0;
+    bottom: 0;
+}

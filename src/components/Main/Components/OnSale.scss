@@ -1,0 +1,60 @@
+.onsale {
+    left: 250px;
+    top: 50px;
+    position: absolute;
+    width: 480px;
+
+    .__header {
+        display: flex;
+        justify-content: space-between;
+
+        ._title {
+            font-family: Exo;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+
+        ._view {
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+            font-family: Exo;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+
+            .grid_btns {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .__body {
+        margin-top: 20px;
+        max-height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    ::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #888;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #fff;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}

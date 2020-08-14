@@ -1,0 +1,66 @@
+.__right-part {
+    display: flex;
+    position: absolute;
+    right: 20px;  
+    ._account {
+      display: flex;
+      ._text {
+        margin-left: 15px;
+        font-family: Exo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+      ._arrow {
+        margin-left: 15px;
+        cursor: pointer;
+        transition: all .15s linear;
+       
+        &.active {
+          transform: rotate(180deg);
+        }
+      }
+      ._dots {
+        margin-left: 15px;
+      }
+    }
+
+    ._balance {
+      display: flex;
+      ._btn {
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      ._dots {
+        margin-left: 20px;
+      }
+    }
+
+    ._notif {
+      display: flex;
+      ._btn {
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      ._dots {
+        margin-left: 20px;
+      }
+    }
+
+    ._cart {
+      display: flex;
+
+      ._amount {
+        font-family: Exo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 20px;
+      }
+      ._btn {
+        margin-left: 20px;
+        cursor: pointer;
+      }
+    }
+  }

@@ -1,0 +1,54 @@
+.notifications {
+    position: absolute;
+    right: 20px;
+    top: 8%;
+    width: 416px;
+    height: 60px;
+    border-top: 1px solid white;
+    background: #17182E;
+    opacity: 0.98;
+    box-shadow: -8px 8px 8px rgba(0,0,0,.6);
+    z-index: 2;
+
+    ._text  {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;   
+        line-height: 60px;    
+        opacity: .5;
+    }
+    .__triangle {
+        position: absolute;
+        left: 77%;
+        top: -13px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid #17182E;
+
+        ._first_line {
+            width: 15px;
+            height: 1px;
+            background-color: #fff;
+            transform: rotate(55deg);
+            transform-origin: top left;
+        }
+
+        ._second_line {
+            width: 15px;
+            height: 1px;
+            background-color: #fff;
+            transform: rotate(125deg);
+            transform-origin: top left;
+        }
+
+    }
+}
+
+.notifications.is-active {
+    display: none;
+}

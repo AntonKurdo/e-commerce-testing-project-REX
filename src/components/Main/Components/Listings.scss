@@ -1,0 +1,24 @@
+.listings {
+    left: 770px;
+    top: 50px;
+    position: absolute;
+    width: 218px;
+
+    ._title {
+        font-family: Exo;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    .__body {
+        margin-top: 20px;
+        max-height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: auto;       
+    }
+}

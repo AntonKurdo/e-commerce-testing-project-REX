@@ -1,0 +1,39 @@
+.socials {    
+    display: flex;  
+    ._item {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        background-color: #232439;       
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        margin-right: 20px;  
+        cursor: pointer;        
+    }
+    ._item:last-child {
+        margin-right: 0;
+    }
+    ._white_square {
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        position: absolute;      
+    }
+    .first {
+        top: 0;
+        left: 0;
+    }
+    .second {
+        top: 0;
+        right: 0;
+    }
+    .third {
+        right: 0;
+        bottom: 0;
+    }
+    .fourth {
+        left: 0;
+        bottom: 0;
+    }
+}

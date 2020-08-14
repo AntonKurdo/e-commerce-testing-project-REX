@@ -1,0 +1,35 @@
+.news {
+    left: 1020px;
+    top: 50px;
+    position: absolute;
+    width: 16%;
+
+    ._title {
+        font-family: Exo;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    .__body {
+        margin-top: 20px;
+        max-height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .banner_controls {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+}

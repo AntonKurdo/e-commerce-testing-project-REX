@@ -1,0 +1,57 @@
+.billing {
+    display: none;  
+    &.active {
+        display: block;
+    }
+    ._header {
+        padding: 10px 20px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+
+        ._input {
+            margin-left: 20px;
+            display: flex;
+
+            ._text {
+                margin-left: 5px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 20px;
+                vertical-align: middle;
+            }
+        }
+
+    }
+
+    ._body {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+
+        ._lay {
+            display: flex;
+
+            ._left-side {
+                width: 50%;
+                margin-right: 15px;
+
+            }
+
+            ._right-side {
+                width: 50%;
+            }
+        }
+    }
+
+}

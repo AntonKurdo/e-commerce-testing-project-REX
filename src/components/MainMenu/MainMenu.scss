@@ -1,0 +1,56 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .95;
+    background-color: #0B0C23;
+    z-index: 10;
+    transition: all .5s linear;
+
+    .btn_close {
+        transition: all .15s ease-in;
+    }
+
+    .btn_close:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    nav {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+            font-family: Exo;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 48px;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: all .15s linear;
+        }
+
+        a:hover {
+            transform: scale(1.2);
+            text-decoration: underline;
+        }
+
+    }
+}
+
+.menu._non-active {
+    position: absolute;
+    transform: translateX(-100%);
+
+}

@@ -1,0 +1,276 @@
+.cart {
+    position: absolute;
+    right: 20px;
+    top: 8%;
+    width: 416px;
+    min-height: 380px;
+    max-height: 785px;
+    overflow: auto;
+    border-top: 1px solid white;
+    background: #17182E;
+    opacity: 0.98;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, .6);
+    z-index: 2;
+
+    .__triangle {
+        position: absolute;
+        left: 77%;
+        top: -13px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid #17182E;
+
+        ._first_line {
+            width: 15px;
+            height: 1px;
+            background-color: #fff;
+            transform: rotate(55deg);
+            transform-origin: top left;
+        }
+
+        ._second_line {
+            width: 15px;
+            height: 1px;
+            background-color: #fff;
+            transform: rotate(125deg);
+            transform-origin: top left;
+        }
+
+    }
+
+    .__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 5%;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+
+        ._text {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+
+        .btn_close {
+            cursor: pointer;
+        }
+    }
+
+    .__body {
+        padding: 0 15px;
+        border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+        height: 260px;
+        overflow: auto;
+
+        .cart_item {
+            padding: 13px 10px;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+
+          
+
+            &:last-child .item-body {
+                border: none;
+            }
+
+            .item-pic {
+                position: relative;
+                width: 60px;
+                height: 60px;
+                background: #0B0C23;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 80%;
+                }
+
+                .__square {
+                    position: absolute;
+                    width: 2px;
+                    height: 2px;
+                    background-color: #fff;
+                }
+
+                ._first {
+                    left: 0;
+                    top: 0;
+                }
+
+                ._second {
+                    right: 0;
+                    top: 0;
+                }
+
+                ._third {
+                    left: 0;
+                    bottom: 0;
+                }
+
+                ._fourth {
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+
+            .item-body {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: 20px;
+                width: 311px;
+                border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+
+                ._title {
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    color: #fff;
+                }
+
+                ._cont {
+                    ._controlls {
+                        display: flex;
+                        justify-content: flex-end;
+
+                        ._ar-left {
+                            margin-right: 10px;
+                            cursor: pointer;
+                        }
+
+                        ._ar-right {
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .btn_remove {
+                        position: absolute;                      
+                        right: 0px;
+                        top: 5px;
+                        width: 9px;
+                        cursor: pointer;
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    ._price {
+                        font-family: Open Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }
+            }
+        }      
+    }
+
+    .__footer {
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        ._buttons {
+            display: flex;
+            margin-bottom: 10px;
+
+            .btn {
+                border: none;
+                color: white;
+                position: relative;
+                width: 87px;
+                height: 33px;
+                background-color: #fff;
+                margin-right: 15px;
+                background: #0B0C23;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #1c1d53;
+                }
+
+                &:active {                   
+                    background-color: #0B0C23;                  
+                }
+
+                .__square {
+                    position: absolute;
+                    width: 2px;
+                    height: 2px;
+                    background-color: #fff;
+                }
+
+                ._first {
+                    left: 0;
+                    top: 0;
+                }
+
+                ._second {
+                    right: 0;
+                    top: 0;
+                }
+
+                ._third {
+                    left: 0;
+                    bottom: 0;
+                }
+
+                ._fourth {
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+
+        ._sum {
+            display: flex;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+
+            div:first-child {
+                margin-right: 10px;
+            }
+        }
+    }
+
+}
+
+.cart.non-active {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,14 @@
+._lang {
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+
+  .abbreviation {
+    font-family: Exo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 13px;
+    cursor: pointer;
+  }
+}
