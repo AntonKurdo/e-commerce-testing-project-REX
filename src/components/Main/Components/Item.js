@@ -1,7 +1,7 @@
 import React from 'react';
 import './Item.scss';
 import star from '../../../assets/star-added.png';
-import starNonAdded from '../../../assets/star-non-added.png';
+
 
 export const Item = ({
     id,

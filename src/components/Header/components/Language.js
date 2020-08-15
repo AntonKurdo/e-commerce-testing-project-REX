@@ -2,9 +2,6 @@ import React from 'react';
 import './Language.scss';
 import langLogo from '../../../assets/planet-earth.png';
 
-const langs = ['ENG', 'RU'];
-
-
 export const Language = ({
     lang,    
     changeLang,
@@ -15,8 +12,7 @@ export const Language = ({
     
     const onChangeLang = () => {
         setLangIndex();
-        changeLang();
-        // console.log(index + 1)
+        changeLang();       
     }
 
     return (

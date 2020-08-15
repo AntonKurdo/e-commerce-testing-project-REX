@@ -13,7 +13,7 @@ const INITIAL_STATE = {
     isEquipmentSelectActive: false,
     isNotificationsOpen: false,
     isProfileOpen: false,
-    isCartOpen: true,
+    isCartOpen: false,
     cartItems: [],    
     menu: {
         menu: 'menu',
@@ -113,14 +113,14 @@ export default function (state = INITIAL_STATE, action) {
                 }
                 return item;
             })
-            let closeBilling = true;
+            let closeBilling = state.isBillingActive;
             if (state.cartItems.length === 1) {
                 closeBilling = false;
             }
             return update(state, {
                 cartItems: { $set: newCart },
                 data: { $set: removedItemFromData },
-                isBillingActive: {$set : closeBilling}                
+                isBillingActive: { $set: closeBilling }               
             })
         case 'SET_AMOUNT_UP':
             const arrUp = state.cartItems.map(item => {
