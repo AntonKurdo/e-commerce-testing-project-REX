@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/e-commerce-testing-project-REX/static/css/main.251f9b0b.chunk.css",
-    "main.js": "/e-commerce-testing-project-REX/static/js/main.c6ef8722.chunk.js",
-    "main.js.map": "/e-commerce-testing-project-REX/static/js/main.c6ef8722.chunk.js.map",
+    "main.js": "/e-commerce-testing-project-REX/static/js/main.fe27694a.chunk.js",
+    "main.js.map": "/e-commerce-testing-project-REX/static/js/main.fe27694a.chunk.js.map",
     "runtime-main.js": "/e-commerce-testing-project-REX/static/js/runtime-main.f675c28a.js",
     "runtime-main.js.map": "/e-commerce-testing-project-REX/static/js/runtime-main.f675c28a.js.map",
     "static/js/2.38f71e9b.chunk.js": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js",
     "static/js/2.38f71e9b.chunk.js.map": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js.map",
     "index.html": "/e-commerce-testing-project-REX/index.html",
-    "precache-manifest.545749eb65be53cddfb9eba3eca5d31a.js": "/e-commerce-testing-project-REX/precache-manifest.545749eb65be53cddfb9eba3eca5d31a.js",
+    "precache-manifest.5a7ae1668b6281ab4a64bc3ab0741478.js": "/e-commerce-testing-project-REX/precache-manifest.5a7ae1668b6281ab4a64bc3ab0741478.js",
     "service-worker.js": "/e-commerce-testing-project-REX/service-worker.js",
     "static/css/main.251f9b0b.chunk.css.map": "/e-commerce-testing-project-REX/static/css/main.251f9b0b.chunk.css.map",
     "static/js/2.38f71e9b.chunk.js.LICENSE.txt": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.f675c28a.js",
     "static/js/2.38f71e9b.chunk.js",
     "static/css/main.251f9b0b.chunk.css",
-    "static/js/main.c6ef8722.chunk.js"
+    "static/js/main.fe27694a.chunk.js"
   ]
 }
