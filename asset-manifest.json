@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/e-commerce-testing-project-REX/static/css/main.251f9b0b.chunk.css",
-    "main.js": "/e-commerce-testing-project-REX/static/js/main.f456ae54.chunk.js",
-    "main.js.map": "/e-commerce-testing-project-REX/static/js/main.f456ae54.chunk.js.map",
+    "main.js": "/e-commerce-testing-project-REX/static/js/main.c6ef8722.chunk.js",
+    "main.js.map": "/e-commerce-testing-project-REX/static/js/main.c6ef8722.chunk.js.map",
     "runtime-main.js": "/e-commerce-testing-project-REX/static/js/runtime-main.f675c28a.js",
     "runtime-main.js.map": "/e-commerce-testing-project-REX/static/js/runtime-main.f675c28a.js.map",
-    "static/js/2.12889171.chunk.js": "/e-commerce-testing-project-REX/static/js/2.12889171.chunk.js",
-    "static/js/2.12889171.chunk.js.map": "/e-commerce-testing-project-REX/static/js/2.12889171.chunk.js.map",
+    "static/js/2.38f71e9b.chunk.js": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js",
+    "static/js/2.38f71e9b.chunk.js.map": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js.map",
     "index.html": "/e-commerce-testing-project-REX/index.html",
-    "precache-manifest.0be2dd77f8f67e86d6a13c0767857d03.js": "/e-commerce-testing-project-REX/precache-manifest.0be2dd77f8f67e86d6a13c0767857d03.js",
+    "precache-manifest.545749eb65be53cddfb9eba3eca5d31a.js": "/e-commerce-testing-project-REX/precache-manifest.545749eb65be53cddfb9eba3eca5d31a.js",
     "service-worker.js": "/e-commerce-testing-project-REX/service-worker.js",
     "static/css/main.251f9b0b.chunk.css.map": "/e-commerce-testing-project-REX/static/css/main.251f9b0b.chunk.css.map",
-    "static/js/2.12889171.chunk.js.LICENSE.txt": "/e-commerce-testing-project-REX/static/js/2.12889171.chunk.js.LICENSE.txt",
+    "static/js/2.38f71e9b.chunk.js.LICENSE.txt": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js.LICENSE.txt",
     "static/media/10.png": "/e-commerce-testing-project-REX/static/media/10.24020fdb.png",
     "static/media/3.png": "/e-commerce-testing-project-REX/static/media/3.fc38f2cf.png",
     "static/media/4.png": "/e-commerce-testing-project-REX/static/media/4.d06dca67.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f675c28a.js",
-    "static/js/2.12889171.chunk.js",
+    "static/js/2.38f71e9b.chunk.js",
     "static/css/main.251f9b0b.chunk.css",
-    "static/js/main.f456ae54.chunk.js"
+    "static/js/main.c6ef8722.chunk.js"
   ]
 }

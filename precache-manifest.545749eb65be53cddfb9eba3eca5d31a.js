@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c81bb5b03b9835ccc4b64da02902829",
+    "revision": "746603fbb9be4cf906ef0c3e15f5e319",
     "url": "/e-commerce-testing-project-REX/index.html"
   },
   {
-    "revision": "3ac1ab613d35bfacc28c",
+    "revision": "ffcf105f8f597598613d",
     "url": "/e-commerce-testing-project-REX/static/css/main.251f9b0b.chunk.css"
   },
   {
-    "revision": "e1458a43623c5fbd1082",
-    "url": "/e-commerce-testing-project-REX/static/js/2.12889171.chunk.js"
+    "revision": "c7e297bd7bca2335939d",
+    "url": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/e-commerce-testing-project-REX/static/js/2.12889171.chunk.js.LICENSE.txt"
+    "url": "/e-commerce-testing-project-REX/static/js/2.38f71e9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ac1ab613d35bfacc28c",
-    "url": "/e-commerce-testing-project-REX/static/js/main.f456ae54.chunk.js"
+    "revision": "ffcf105f8f597598613d",
+    "url": "/e-commerce-testing-project-REX/static/js/main.c6ef8722.chunk.js"
   },
   {
     "revision": "12ad84a018991a22da9b",
